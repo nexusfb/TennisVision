@@ -4,6 +4,8 @@
 
 This project aims to analyze tennis player performance using computer vision techniques. The system uses **OpenPose** for pose estimation, **SVM** for action recognition, and **DTW (Dynamic Time Warping)** to compare players' movements against professional players. This project was developed as part of the 'AI Lab: Computer Vision and NLP' course at La Sapienza University of Rome.
 
+![TennisVision Demo](demo.gif)
+
 ---
 
 ## Table of Contents
@@ -63,6 +65,9 @@ Using labeled data, we train a **SVM** classifier to recognize strokes. The labe
 ### Action Scoring
 
 To score the strokes, we compute the DTW distance between the player's movements and a professional player's movements. Each keypoint gets a score, and the overall stroke score is an average of these keypoints' scores.
+
+[Download the TennisVision demo video](demo.mp4)
+
 
 ---
 
